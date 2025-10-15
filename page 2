@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+void main() {
+    int a = 7;
+    int b = 2;
+    cout << a / b << endl;
+    cout << a / (double)b << endl;
+    cout << (double)a / b << endl;
+}
+ OUT PUT :
+3
+3.5 
+3.5
+for 
+#include <iostream>
+using namespace std;
+
+void main() {
+    int x = -7;
+    int y = 3;
+    cout << "x / y = " << x / y << endl;
+    cout << "x % y = " << x % y << endl;
+}
+out put 
+x / y = -2
+x % y = -1
+for 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 3, b = 4, c = 5;
+
+    int expr1 = a + b * c;
+    int expr2 = (a + b) * c;
+    double expr3 = (double)(a / b) + c;
+    double expr4 = (double)a / b + c;
+    char letter = 'A' + (a * b - c);  // ASCII arithmetic
+    bool check = (a + b > c) && !(c % a);
+
+    cout << "expr1 = " << expr1 << endl;
+    cout << "expr2 = " << expr2 << endl;
+    cout << "expr3 = " << expr3 << endl;
+    cout << "expr4 = " << expr4 << endl;
+    cout << "letter = " << letter << endl;
+    cout << "check = " << check << endl;
+
+    return 0;
+}
+out put 
+expr1 = 23
+expr2 = 35
+expr3 = 5
+expr4 = 5.75
+letter = H
+check = 0
